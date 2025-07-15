@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">My Application</string>
+    
+    <!-- Dialog Titles -->
+    <string name="dialog_title_assign_value">Assign Value</string>
+    <string name="dialog_title_create_condition">Create Condition</string>
+    <string name="dialog_title_print_output">Print Output</string>
+    <string name="dialog_title_while_condition">While Condition</string>
+    <string name="dialog_title_define_variables">Define Multiple Variables</string>
+    <string name="dialog_title_create_array">Create Array</string>
+    <string name="dialog_title_get_array_element">Get Array Element</string>
+    <string name="dialog_title_set_array_element">Set Array Element</string>
+    <string name="dialog_title_edit_block">Edit Block</string>
+    <string name="dialog_title_bubble_sort">Bubble Sort</string>
+    <string name="dialog_title_create_for_loop">Create For Loop</string>
+    <string name="dialog_title_save_project">Save Project</string>
+    <string name="dialog_title_load_project">Load Project</string>
+    <string name="dialog_title_clear_workspace">Clear Workspace</string>
+    <string name="dialog_title_about">About</string>
+    <string name="dialog_title_help">How to Use</string>
+
+    <!-- Dialog Labels -->
+    <string name="label_create_new_variable">Create new variable</string>
+    <string name="label_new_variable_name">New variable name</string>
+    <string name="label_select_variable">Select variable</string>
+    <string name="label_value_or_expression">Value or expression</string>
+    <string name="label_type">Type: %1$s</string>
+    <string name="label_array_name">Array Name</string>
+    <string name="label_index">Index</string>
+    <string name="label_value">Value</string>
+    <string name="label_condition">Condition</string>
+    <string name="label_operator">Operator: %1$s</string>
+    <string name="label_compare_with">Compare With</string>
+    <string name="label_available_arrays">Available Arrays</string>
+    <string name="label_array_elements">Array Elements</string>
+    <string name="label_element">Element %1$d</string>
+    <string name="label_block_text">Block text</string>
+    <string name="label_select_array_to_sort">Select array to sort</string>
+    <string name="label_initialization">Initialization</string>
+    <string name="label_increment">Increment</string>
+    <string name="label_store_in_variable">Store In Variable</string>
+    <string name="label_expression_or_variable">Expression or variable</string>
+    <string name="label_available_variables">Available variables: %1$s</string>
+    <string name="label_while_condition">While Condition</string>
+    <string name="label_define_multiple_variables">Define Multiple Variables</string>
+    <string name="label_name">Name</string>
+    <string name="label_create_array">Create Array</string>
+    <string name="label_configure_for_loop_parameters">Configure for loop parameters</string>
+    <string name="label_result">Result: %1$s %2$s %3$s</string>
+    <string name="label_blocks_count">Blocks: %1$d</string>
+    <string name="label_variables_count">Variables: %1$d</string>
+    <string name="label_visual_code_editor">Visual Code Editor</string>
+    <string name="label_version">Version %1$s</string>
+    <string name="label_no_projects">No saved projects found</string>
+    <string name="label_add_element">Add Element</string>
+    <string name="label_add_variable">Add Variable</string>
+    <string name="label_remove_element">Remove element</string>
+    <string name="label_remove_variable">Remove variable</string>
+    <string name="label_create">Create</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_save">Save</string>
+    <string name="label_sort">Sort</string>
+    <string name="label_ok">OK</string>
+    <string name="label_select_array">Select array</string>
+    <string name="label_value_or_variable">Value or Variable</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_value_expression">42, x+1, "hello", true</string>
+    <string name="placeholder_variable">x, 5, counter…</string>
+    <string name="placeholder_compare">y, 10, sum…</string>
+    <string name="placeholder_while_condition">e.g. i 10</string>
+
+    <!-- Buttons -->
+    <string name="button_create">Create</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="button_sort">Sort</string>
+    <string name="button_add_variable">Add Variable</string>
+    <string name="button_add_element">Add Element</string>
+    <string name="button_ok">OK</string>
+    <string name="button_need_help">Need Help</string>
+    <string name="button_got_it">Got It!</string>
+    <string name="button_understand">I Understand</string>
+    <string name="button_light_theme">Light Theme</string>
+    <string name="button_dark_theme">Dark Theme</string>
+
+    <!-- Error Messages -->
+    <string name="error_type_mismatch">Type mismatch for \'%1$s\'. Expected: %2$s, got: %3$s</string>
+    <string name="error_select_array">Select array</string>
+    <string name="error_enter_index">Enter index</string>
+    <string name="error_enter_value">Enter value</string>
+    <string name="error_no_array">You have not created an array</string>
+    <string name="error_execution">Execution error: %1$s</string>
+    <string name="error_max_iterations">Warning: maximum iteration limit reached</string>
+    <string name="error_no_if_block">Cannot create else without if</string>
+    <string name="error_project_save">Error saving project: %1$s</string>
+    <string name="error_project_load">Error loading project: %1$s</string>
+    <string name="error_export">Export error: %1$s</string>
+
+    <!-- Results -->
+    <string name="result_array_sorted">Array %1$s sorted: %2$s</string>
+    <string name="result_execution_complete">Execution completed</string>
+    <string name="result_preview">Result: %1$s</string>
+    <string name="result_project_saved">Project \'%1$s\' saved successfully!</string>
+    <string name="result_project_loaded">Project \'%1$s\' loaded successfully!</string>
+    <string name="result_file_exported">File exported to Downloads: %1$s</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_description_open_menu">Open Menu</string>
+    <string name="content_description_save_project">Save Project</string>
+    <string name="content_description_export">Export</string>
+    <string name="content_description_remove_variable">Remove variable</string>
+    <string name="content_description_add_variable">Add variable</string>
+    <string name="content_description_remove_element">Remove element</string>
+    <string name="content_description_add_element">Add element</string>
+
+    <!-- About Dialog -->
+    <string name="about_title">About</string>
+    <string name="about_message">Hi! We, Nastya, Olesya and Lena, created this project to make programming a bit more fun and colorful. Do you need help or will you figure it out?</string>
+    <string name="about_help_title">How to Use</string>
+    <string name="about_help_message">Look, you have two screens: editor and run. First, compose your code from blocks in the first one, and then in the second one you can check it, run it and even save it!</string>
+
+    <!-- Constants -->
+    <string name="const_tag" translatable="false">MainActivity</string>
+    <string name="const_prefs_name" translatable="false">app_preferences</string>
+    <string name="const_key_dark_theme" translatable="false">dark_theme</string>
+    <string name="const_key_current_project" translatable="false">current_project</string>
+    <string name="const_projects_dir" translatable="false">projects</string>
+    <string name="const_code_export_prefix" translatable="false">code_export_</string>
+    <string name="const_code_export_extension" translatable="false">.txt</string>
+    <string name="const_project_extension" translatable="false">.json</string>
+    <string name="const_default_project_name" translatable="false">Project</string>
+
+    <!-- For Loop Dialog -->
+    <string name="title_for_loop">Создание цикла for</string>
+    <string name="label_variable_name">Имя переменной</string>
+    <string name="label_initial_value">Начальное значение</string>
+    <string name="label_comparison_operator">Оператор сравнения</string>
+    <string name="label_comparison_value">Значение для сравнения</string>
+    <!-- <string name="label_increment">Инкремент</string> уже есть-->
+    <string name="action_confirm">Подтвердить</string>
+    <string name="action_cancel">Отмена</string>
+</resources>
